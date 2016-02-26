@@ -40,6 +40,10 @@
 
 	<build>
 		
+		<filters>
+      		<filter>src/main/resources/application.properties</filter>
+    	</filters>
+		
 		<!-- Copy docker file to target dir -->
 		<resources>
 			<resource>
